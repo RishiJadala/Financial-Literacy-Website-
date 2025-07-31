@@ -1,0 +1,267 @@
+.main {
+    background: linear-gradient(to top, rgba(0, 85, 102, 0.8));
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    display: inline-block;
+    white-space: nowrap;
+    position: relative;
+    z-index: 1100;
+}
+
+.menu {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0 20px 0 0;
+    height: 100%;
+}
+
+ul li {
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    transition: color 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #005566;
+}
+
+.content {
+    width: 1200px;
+    padding-left: 10px;
+    height: auto;
+    margin: 0 auto;
+    color: #ffffff;
+    position: relative;
+}
+
+.content .par {
+    padding-left: 20px;
+    padding-bottom: 15px;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1 {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 10px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease;
+}
+
+.cn:hover {
+    background-color: #ffffff;
+}
+
+/* Dropdown styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 85, 102, 0.9); /* Matches your main background */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    top: 100%;
+    left: 0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-content ul li {
+    margin: 0;
+    padding: 12px 16px;
+    font-size: 16px;
+}
+
+.dropdown-content ul li a {
+    color: #FFFFFF;
+    display: block;
+}
+
+.dropdown-content ul li a:hover {
+    background-color: #005566;
+}
+
+.caret_one {
+    display: inline-block;
+    margin-left: 5px;
+}
+ 
+
+
+
+
+/* End of CSS for the home page */
+
+
+/* Start of code for budget page */
+
+.scrollable-container {
+  width: 2px; /* Fixed width */
+  height: 1px; /* Fixed height */
+  overflow: auto; /* Adds scrollbar when content overflows */
+  border: 1px hidden #ccc; /* Optional: for visibility */
+}
+
+
+
+.header2{
+    
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    display: inline-block;
+    white-space: nowrap;
+    position: relative;
+    z-index: 1100;
+
+}
+
+.main2{
+background: linear-gradient(to top, rgba(0, 85, 102, 0.8));
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+section, .section-one {
+      padding: 0 20px;
+      margin-bottom: 20px;
+    }
+
+.header3{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    
+}
+
+.header4{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    
+}
+
+.section-divider {
+      border: 0; /* Remove default hr styling */
+      height: 3px; /* Thicker for visibility */
+      background: #000; /* Pure black */
+      margin: 20px 0; /* Space above and below */
+    }
+
+    
+
+.content80 {
+    width: 1200px;
+    padding-left: 10px;
+    height: auto;
+    margin: 0 auto;
+    color: #ffffff;
+    position: relative;
+}
+
+.content80 .par {
+    padding-left: 20px;
+    padding-bottom: 15px;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+
+.content50 {
+    width: 1200px;
+    padding-left: 10px;
+    height: auto;
+    margin: 0 auto;
+    color: #ffffff;
+    position: relative;
+}
+
+.content50 .par {
+    padding-left: 20px;
+    padding-bottom: 15px;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
